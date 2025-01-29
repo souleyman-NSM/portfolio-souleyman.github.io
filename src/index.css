@@ -7,10 +7,10 @@
   font-display: swap;
 }
 @font-face {
-    font-family: 'Montserrat';
-  src: url('/static/media/Montserrat-Regular.ee653992.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Montserrat';
+  src: local('Montserrat'),
+    url('./assets/fonts/Montserrat-Regular.ttf') format('woff');
+  font-display: swap;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
